@@ -1,0 +1,157 @@
+:root {
+  --rp-black-dark-clr:#0F1A2A;
+  --rp-black-light-clr:#27364B;
+}
+
+.our-customers-section{
+  background-color: #F6FAFF;
+}
+
+
+.company_cover{
+  padding: 4rem;
+}
+
+.grid-container{
+  display: grid ;
+  
+}
+
+.company-logo-section{
+  background-color: white;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 0.6rem;
+  padding: 5rem 0;
+}
+
+.grid-container-row{
+  text-align: center;
+}
+.grid-item-col{
+  margin: 1rem 0;
+}
+
+
+
+/* ---------------------------------------------------- DONE */
+/* homepage common style */
+
+
+.section-testimonials {
+  padding: 7.5rem 0;
+}
+
+.rp-container {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+@media (max-width: 767px) {
+  
+  .section-testimonials {
+    padding: 3rem 0;
+  }
+  .rp-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.section-testimonials {
+  background-color: #F6FAFF;
+}
+
+
+
+/* -------------------------------------------------- DONE */
+/* testimonial section */
+
+
+.testi-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 6rem;
+}
+
+.card {
+  border: 0 none;
+  background: #fff;
+  border-radius: 0.6rem;
+  box-shadow: 0px 14px 30px rgba(52, 117, 145, 0.12);
+}
+.card.testi-card .card-body {
+  padding: 3rem;
+}
+.card.testi-card .card-top {
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+.card.testi-card .testi-contnt p{
+  font-size: 1.4rem;
+  color: #27364B;
+}
+.card.testi-card .customer-info label {
+  letter-spacing: -0.0124em;
+}
+.card.testi-card .customer-info span {
+  font-size: 1.4rem;
+}
+
+.testi-carousel {
+  margin-bottom: 3rem;
+}
+.testi-carousel .carousel-item-inner {
+  float: left;
+  padding: 30px 15px;
+}
+.testi-carousel .carousel-indicators {
+  bottom: -4rem;
+}
+.testi-carousel .carousel-indicators [data-bs-target] {
+  background-color: #CBD4E1;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  border: 0 none;
+}
+.testi-carousel .carousel-indicators [data-bs-target].active {
+  background-color: #2E3092;
+  width: 2.4rem;
+}
+
+@media (max-width: 767px) {
+  .testi-list {
+    overflow: scroll;
+    flex-wrap: nowrap;
+    padding-bottom: 3.5rem;
+  }
+  .testi-list li {
+    max-width: 90%;
+  }
+  .testi-list .thumb-holder {
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+  }
+  .testi-list .thumb-holder img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .testi-list .customer-info label {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .testi-list .customer-info span {
+    font-size: 1.1rem;
+  }
+}
+
+.testi-card {
+  width: 97%;
+  margin: 0 auto;
+  
+}
+
+
