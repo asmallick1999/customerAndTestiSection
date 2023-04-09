@@ -5,6 +5,7 @@
 
 .our-customers-section{
   background-color: #F6FAFF;
+  padding-top: 5%;
 }
 
 
@@ -35,9 +36,6 @@
   border-radius: 0.6rem;
   border: 2rem solid #F6FAFF;
 }
-
-
-
 /* ---------------------------------------------------- DONE */
 /* homepage common style */
 
